@@ -1,5 +1,5 @@
 ---
-title: Git系列: gitignore
+title: 'Git系列: gitignore'
 categories:
   - Git文档
 tags: 
@@ -8,7 +8,7 @@ tags:
   - git系列
 ---
 
-### 1、什么是'.gitignore'
+### 1、什么是 gitignore
 
 ​	git是一个版本控制工具，不过在工作目录中，并不是所有的文件都是需要做版本控制的，比如说编译产生的字节码文件，这种文件是不需要做版本管理，也不需要上传到github中的，但是我们又不想每次上传的时候手动删除这些文件，于是就有了gitignore文件，记录在文件中每一行都是一个规则，git根据这个规则，决定哪些文件做版本控制，这样我们就可以选择性的决定哪些文件做版本控制。
 
@@ -159,6 +159,8 @@ a/**/b/
 
 ### 4、相关资料与链接
 
-[doc]: https://git-scm.com/docs/gitignore	"git官方解释文档"
-[book]: https://git-scm.com/book/zh/v2	"pro git 中文版"
-[github]: https://github.com/github/gitignore	"git官方实例文件"
+git官方解释文档 : [gitignore]( https://git-scm.com/docs/gitignore)
+
+pro git 中文版: [Pro Git v2](https://git-scm.com/book/zh/v2)
+
+git官方实例文件: [github官方实例](https://github.com/github/gitignore)
