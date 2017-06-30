@@ -169,7 +169,7 @@ toc:
   enable: true
 
   # Automatically add list number to toc.
-  number: true
+  number: false
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
@@ -232,8 +232,8 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 100
 
 # Post meta display settings
 post_meta:
@@ -410,7 +410,7 @@ rating:
   color:  fc6423
   
 
-# Show number of visitors to each article.
+# Show numben of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
